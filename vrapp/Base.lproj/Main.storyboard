@@ -5,10 +5,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--SwiftSideMenu-->
+        <!--mainViewController-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="ViewController1" id="BYZ-38-t0r" customClass="ViewController" customModule="vrapp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ViewController1" title="mainViewController" id="BYZ-38-t0r" customClass="ViewController" customModule="vrapp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -38,10 +38,10 @@
             </objects>
             <point key="canvasLocation" x="708" y="-97"/>
         </scene>
-        <!--View Controller2-->
+        <!--ViewController2-->
         <scene sceneID="nqp-DX-hyo">
             <objects>
-                <viewController storyboardIdentifier="ViewController2" id="te7-SD-NJ0" customClass="ViewController2" customModule="vrapp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ViewController2" title="ViewController2" id="te7-SD-NJ0" customClass="ViewController2" customModule="vrapp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="stf-Pm-Vf3"/>
                         <viewControllerLayoutGuide type="bottom" id="Zwc-D1-gHm"/>
@@ -64,10 +64,10 @@
             </objects>
             <point key="canvasLocation" x="1375" y="-97"/>
         </scene>
-        <!--silderMenu-->
+        <!--MyNavigationController-->
         <scene sceneID="Cr4-Sy-e4D">
             <objects>
-                <navigationController title="silderMenu" id="oL9-8H-PcF" customClass="MyNavigationController" customModule="vrapp" customModuleProvider="target" sceneMemberID="viewController">
+                <navigationController title="MyNavigationController" id="oL9-8H-PcF" customClass="MyNavigationController" customModule="vrapp" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="DBH-MR-gRK">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -80,10 +80,10 @@
             </objects>
             <point key="canvasLocation" x="-312" y="321"/>
         </scene>
-        <!--View Controller-->
+        <!--ViewController3-->
         <scene sceneID="xB5-CS-vEj">
             <objects>
-                <viewController storyboardIdentifier="ViewController3" id="WWT-sw-ZvZ" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ViewController3" title="ViewController3" id="WWT-sw-ZvZ" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="tyk-QF-cIN"/>
                         <viewControllerLayoutGuide type="bottom" id="RrO-9n-Yr7"/>
@@ -106,10 +106,10 @@
             </objects>
             <point key="canvasLocation" x="708" y="587"/>
         </scene>
-        <!--View Controller-->
+        <!--ViewController4-->
         <scene sceneID="oZ1-2A-30w">
             <objects>
-                <viewController storyboardIdentifier="ViewController4" id="r0H-5m-Aqd" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ViewController4" title="ViewController4" id="r0H-5m-Aqd" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="poA-ak-ysb"/>
                         <viewControllerLayoutGuide type="bottom" id="qMX-fn-ZgI"/>
