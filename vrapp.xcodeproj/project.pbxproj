@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C9C71B44DB9F39D3CA079EC /* Pods_vrapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A2849AA341F0B0AD3C05B98 /* Pods_vrapp.framework */; };
+		603DF7681D7D27F200E10B3D /* ENSideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603DF7661D7D27F100E10B3D /* ENSideMenu.swift */; };
+		603DF7691D7D27F200E10B3D /* ENSideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603DF7671D7D27F100E10B3D /* ENSideMenuNavigationController.swift */; };
+		603DF76F1D7D503700E10B3D /* MyNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603DF76E1D7D503700E10B3D /* MyNavigationController.swift */; };
+		603DF7711D7D51B800E10B3D /* MyMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603DF7701D7D51B800E10B3D /* MyMenuTableViewController.swift */; };
+		603DF7731D7D5A1600E10B3D /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603DF7721D7D5A1600E10B3D /* ViewController2.swift */; };
 		60572F011D6FD4D300C7BFC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60572F001D6FD4D300C7BFC9 /* AppDelegate.swift */; };
 		60572F031D6FD4D300C7BFC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60572F021D6FD4D300C7BFC9 /* ViewController.swift */; };
 		60572F061D6FD4D300C7BFC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60572F041D6FD4D300C7BFC9 /* Main.storyboard */; };
@@ -14,6 +20,7 @@
 		60572F0B1D6FD4D300C7BFC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60572F091D6FD4D300C7BFC9 /* LaunchScreen.storyboard */; };
 		60572F161D6FD4D400C7BFC9 /* vrappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60572F151D6FD4D400C7BFC9 /* vrappTests.swift */; };
 		60572F211D6FD4D400C7BFC9 /* vrappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60572F201D6FD4D400C7BFC9 /* vrappUITests.swift */; };
+		60B512911D780022008D899C /* AppNetRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B512901D780022008D899C /* AppNetRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A2849AA341F0B0AD3C05B98 /* Pods_vrapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vrapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		603DF7661D7D27F100E10B3D /* ENSideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ENSideMenu.swift; path = Pods/ENSwiftSideMenu/Library/ENSideMenu.swift; sourceTree = SOURCE_ROOT; };
+		603DF7671D7D27F100E10B3D /* ENSideMenuNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ENSideMenuNavigationController.swift; path = Pods/ENSwiftSideMenu/Library/ENSideMenuNavigationController.swift; sourceTree = SOURCE_ROOT; };
+		603DF76E1D7D503700E10B3D /* MyNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyNavigationController.swift; path = controller/MyNavigationController.swift; sourceTree = "<group>"; };
+		603DF7701D7D51B800E10B3D /* MyMenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyMenuTableViewController.swift; path = controller/MyMenuTableViewController.swift; sourceTree = "<group>"; };
+		603DF7721D7D5A1600E10B3D /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController2.swift; path = controller/ViewController2.swift; sourceTree = "<group>"; };
 		60572EFD1D6FD4D300C7BFC9 /* vrapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vrapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60572F001D6FD4D300C7BFC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		60572F021D6FD4D300C7BFC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +60,9 @@
 		60572F1C1D6FD4D400C7BFC9 /* vrappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vrappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		60572F201D6FD4D400C7BFC9 /* vrappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vrappUITests.swift; sourceTree = "<group>"; };
 		60572F221D6FD4D400C7BFC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60B512901D780022008D899C /* AppNetRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppNetRequest.swift; path = controller/AppNetRequest.swift; sourceTree = "<group>"; };
+		7CB839B9F2D9C0C6A373ADE2 /* Pods-vrapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vrapp.release.xcconfig"; path = "Pods/Target Support Files/Pods-vrapp/Pods-vrapp.release.xcconfig"; sourceTree = "<group>"; };
+		D32807C7D1B223E02D635A13 /* Pods-vrapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vrapp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-vrapp/Pods-vrapp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C9C71B44DB9F39D3CA079EC /* Pods_vrapp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +91,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		603DF7651D7D271100E10B3D /* 3rdParty */ = {
+			isa = PBXGroup;
+			children = (
+				603DF7661D7D27F100E10B3D /* ENSideMenu.swift */,
+				603DF7671D7D27F100E10B3D /* ENSideMenuNavigationController.swift */,
+			);
+			name = 3rdParty;
+			sourceTree = "<group>";
+		};
 		60572EF41D6FD4D300C7BFC9 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +107,8 @@
 				60572F141D6FD4D400C7BFC9 /* vrappTests */,
 				60572F1F1D6FD4D400C7BFC9 /* vrappUITests */,
 				60572EFE1D6FD4D300C7BFC9 /* Products */,
+				88ACDCBB7D596291E479CC5B /* Pods */,
+				DB8006265D6B31E10E3FB813 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,11 +125,12 @@
 		60572EFF1D6FD4D300C7BFC9 /* vrapp */ = {
 			isa = PBXGroup;
 			children = (
+				603DF7651D7D271100E10B3D /* 3rdParty */,
+				60572F301D6FD56100C7BFC9 /* controller */,
+				60572F2F1D6FD55600C7BFC9 /* view */,
+				60572F2E1D6FD53900C7BFC9 /* model */,
 				60572F001D6FD4D300C7BFC9 /* AppDelegate.swift */,
-				60572F021D6FD4D300C7BFC9 /* ViewController.swift */,
-				60572F041D6FD4D300C7BFC9 /* Main.storyboard */,
 				60572F071D6FD4D300C7BFC9 /* Assets.xcassets */,
-				60572F091D6FD4D300C7BFC9 /* LaunchScreen.storyboard */,
 				60572F0C1D6FD4D300C7BFC9 /* Info.plist */,
 			);
 			path = vrapp;
@@ -125,6 +154,51 @@
 			path = vrappUITests;
 			sourceTree = "<group>";
 		};
+		60572F2E1D6FD53900C7BFC9 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		60572F2F1D6FD55600C7BFC9 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				60572F091D6FD4D300C7BFC9 /* LaunchScreen.storyboard */,
+				60572F041D6FD4D300C7BFC9 /* Main.storyboard */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		60572F301D6FD56100C7BFC9 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				60572F021D6FD4D300C7BFC9 /* ViewController.swift */,
+				60B512901D780022008D899C /* AppNetRequest.swift */,
+				603DF76E1D7D503700E10B3D /* MyNavigationController.swift */,
+				603DF7701D7D51B800E10B3D /* MyMenuTableViewController.swift */,
+				603DF7721D7D5A1600E10B3D /* ViewController2.swift */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		88ACDCBB7D596291E479CC5B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D32807C7D1B223E02D635A13 /* Pods-vrapp.debug.xcconfig */,
+				7CB839B9F2D9C0C6A373ADE2 /* Pods-vrapp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DB8006265D6B31E10E3FB813 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A2849AA341F0B0AD3C05B98 /* Pods_vrapp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +206,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 60572F251D6FD4D400C7BFC9 /* Build configuration list for PBXNativeTarget "vrapp" */;
 			buildPhases = (
+				082B0A0E514BF332903F068C /* [CP] Check Pods Manifest.lock */,
 				60572EF91D6FD4D300C7BFC9 /* Sources */,
 				60572EFA1D6FD4D300C7BFC9 /* Frameworks */,
 				60572EFB1D6FD4D300C7BFC9 /* Resources */,
+				3C524D0E9BB953C401FD6A0E /* [CP] Embed Pods Frameworks */,
+				9606CD5BDAF55A9215798F21 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,13 +331,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		082B0A0E514BF332903F068C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3C524D0E9BB953C401FD6A0E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-vrapp/Pods-vrapp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9606CD5BDAF55A9215798F21 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-vrapp/Pods-vrapp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		60572EF91D6FD4D300C7BFC9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				603DF7691D7D27F200E10B3D /* ENSideMenuNavigationController.swift in Sources */,
+				603DF7731D7D5A1600E10B3D /* ViewController2.swift in Sources */,
 				60572F031D6FD4D300C7BFC9 /* ViewController.swift in Sources */,
+				603DF7681D7D27F200E10B3D /* ENSideMenu.swift in Sources */,
+				603DF76F1D7D503700E10B3D /* MyNavigationController.swift in Sources */,
+				603DF7711D7D51B800E10B3D /* MyMenuTableViewController.swift in Sources */,
 				60572F011D6FD4D300C7BFC9 /* AppDelegate.swift in Sources */,
+				60B512911D780022008D899C /* AppNetRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,8 +531,10 @@
 		};
 		60572F261D6FD4D400C7BFC9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D32807C7D1B223E02D635A13 /* Pods-vrapp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = vrapp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jdyun.vrapp;
@@ -411,8 +544,10 @@
 		};
 		60572F271D6FD4D400C7BFC9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CB839B9F2D9C0C6A373ADE2 /* Pods-vrapp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = vrapp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jdyun.vrapp;
@@ -485,6 +620,7 @@
 				60572F271D6FD4D400C7BFC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		60572F281D6FD4D400C7BFC9 /* Build configuration list for PBXNativeTarget "vrappTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +629,7 @@
 				60572F2A1D6FD4D400C7BFC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		60572F2B1D6FD4D400C7BFC9 /* Build configuration list for PBXNativeTarget "vrappUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +638,7 @@
 				60572F2D1D6FD4D400C7BFC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
